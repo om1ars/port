@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* max-width: 90%; */
+  /* margin: 0 auto; */
+}
+
+.container > h1 {
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    display: block;
+  }
+
+  .container > p {
+    max-width: 50%;
+  }
+}

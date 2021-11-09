@@ -1,0 +1,36 @@
+.wrapper {
+  position: absolute;
+  overflow: hidden;
+  top: 100%;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+  font: 300 30px/1 "Open Sans Condensed", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  animation: 60s credits linear infinite;
+}
+.movie {
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.job {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.name {
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+
+@keyframes credits {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: -500%;
+  }
+}

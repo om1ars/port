@@ -1,0 +1,60 @@
+.containerr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  perspective: 1500px;
+}
+
+.cube {
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate3d(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: rotate3d(1, 1, 1, 360deg);
+  }
+}
+
+.cube > div {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  opacity: 2;
+  border: 2px solid #fff;
+}
+
+.front {
+  background: red;
+  transform: translateX(-200px) translateY(-200px) translateZ(200px);
+}
+
+.back {
+  background: yellow;
+  transform: translateX(-200px) translateY(-200px) translateZ(-200px);
+}
+
+.left {
+  background: grey;
+  transform: translateY(-200px) translateX(-400px) rotateY(90deg);
+}
+
+.right {
+  background: blue;
+  transform: translateY(-200px) rotateY(90deg);
+}
+
+.top {
+  background: green;
+  transform: translateX(-200px) translateY(-400px) rotateX(90deg);
+}
+
+.bottom {
+  background: purple;
+  transform: translateX(-200px) rotateX(90deg);
+}

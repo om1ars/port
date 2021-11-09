@@ -1,0 +1,29 @@
+.menu >ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  list-style-type: none;
+
+ .menu >  li {
+    padding: 6px 0;
+
+    .menu >  a {
+      --fill-color: #198CE6;
+      position: relative;
+      display: block;
+      padding: 4px 0;
+      font: 700 3rem Raleway, sans-serif;
+      text-decoration: none;
+      text-transform: uppercase;
+      -webkit-text-stroke: 2px var(--fill-color);
+      background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+      color: transparent;
+      background-clip: text;
+      transition: 0.5s linear;
+
+      &:hover {
+        background-size: 100%;
+      }
+    }
+  }
+}

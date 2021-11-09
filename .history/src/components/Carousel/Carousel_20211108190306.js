@@ -1,0 +1,63 @@
+import React from 'react'
+
+
+const technologies = [
+    {
+        id: 1,
+        title: 'Html',
+        image: null
+    },
+    {
+        id: 2,
+        title: 'Html',
+        image: null
+    },
+    {
+        id: 3,
+        title: 'Html',
+        image: null
+    },
+    {
+        id: 4,
+        title: 'Html',
+        image: null
+    },
+    {
+        id: 1,
+        title: 'Html',
+        image: null
+    },
+    {
+        id: 1,
+        title: 'Html',
+        image: null
+    },
+    {
+        id: 1,
+        title: 'Html',
+        image: null
+    },
+    {
+        id: 1,
+        title: 'Html',
+        image: null
+    },
+    {
+        id: 1,
+        title: 'Html',
+        image: null
+    },
+    {
+        id: 1,
+        title: 'Html',
+        image: null
+    },
+]
+
+export default function Carousel() {
+    return (
+        <div>
+            
+        </div>
+    )
+}
