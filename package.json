@@ -13,6 +13,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "animejs": "^3.2.1",
+    "firebase": "^9.5.0",
     "framer-motion": "^4.1.17",
     "gsap": "^3.8.0",
     "just-animate": "^2.6.2",
