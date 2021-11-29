@@ -15,7 +15,7 @@ export default function Icons() {
       <a href="https://t.me/omar_slf" target="blank">
         <Telegram style={{ color: "#0088cc" }} />
       </a>
-    
+
       <a href="https://youtu.be/ngd8WTakdtA" target="blank">
         <YouTube style={{ color: "#FF0000" }} />
       </a>
